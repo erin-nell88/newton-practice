@@ -21,6 +21,8 @@ def optimize(x0, f, tol =1e-4):
 
 
 def optimize2(x0, f, tol=1e-4):
+
+    '''newton's method for multivariate '''
     x = np.array(x0, dtype=float)
 
     while True:
